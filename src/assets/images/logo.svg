@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" width="520" height="520">
+	<title>logo</title>
+	<style>
+		.s0 { fill: #060810 } 
+		.s1 { fill: #10e956 } 
+	</style>
+	<g>
+		<path fill-rule="evenodd" class="s0" d="m104 4h312c55.2 0 100 44.8 100 100v312c0 55.2-44.8 100-100 100h-312c-55.2 0-100-44.8-100-100v-312c0-55.2 44.8-100 100-100z"/>
+		<path fill-rule="evenodd" class="s1" d="m338.1 131h46.9v250h-46.9z"/>
+		<path fill-rule="evenodd" class="s1" d="m135 131h46.9v250h-46.9z"/>
+		<path fill-rule="evenodd" class="s1" d="m197.7 380.5l0.1-46.9 123.6 0.2-0.1 46.9z"/>
+		<path id="Shape 1" fill-rule="evenodd" class="s1" d="m322 229v47h-125v-47z"/>
+		<path fill-rule="evenodd" class="s1" d="m197.6 179.1l-0.1-46.9 123.6-0.2 0.1 46.9z"/>
+	</g>
+</svg>
