@@ -61,31 +61,31 @@ const Data = [
     },
     {
         id: 1,
-        img: "https://ik.imagekit.io/onyedika/slide/pipar-beta?ik-sdk-version=javascript-1.4.3&updatedAt=1664831519274",
+        img: require('./../../assets/images/project_img2.png'),
     },
     {
         id: 2,
-        img: "https://ik.imagekit.io/onyedika/slide/pipar_peinACEKO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256618",
+        img: require('./../../assets/images/project_img3.png'),
     },
     {
         id: 3,
-        img: "https://ik.imagekit.io/onyedika/slide/calender_S6GI-SE7_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256123",
+        img: require('./../../assets/images/project_img4.png'),
     },
     {
         id: 4,
-        img: "https://ik.imagekit.io/onyedika/slide/movie_Si8QWOouP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256396",
+        img: require('./../../assets/images/project_img5.png'),
     },
     {
         id: 5,
-        img: "https://ik.imagekit.io/onyedika/slide/natour_QGZwpr7Ta.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256510",
+        img: require('./../../assets/images/project_img6.png'),
     },
     {
         id: 6,
-        img: "https://ik.imagekit.io/onyedika/slide/ncehr_GV14iEwWG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256179",
+        img: require('./../../assets/images/project_img7.png'),
     },
     {
         id: 7,
-        img: "https://ik.imagekit.io/onyedika/slide/guvve_sUg2If5kc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256276",
+        img: require('./../../assets/images/project_img8.png'),
     },
     {
         id: 8,
@@ -190,7 +190,7 @@ function Home() {
                     <p><span>✌🏻</span> Hello, I'm Benjamin Lee</p>
                 </div>
                 <div className="content-primary">
-                    <h1>a <span>Full Stack Developer</span>. I can help you bring your vision to life from <span>scratch</span> to <span>final</span> and <span>grow</span> your business</h1>
+                    <h1>a  <span>blockchain</span> & <span>Full Stack </span>Developer. I can help you bring your vision to life from <span>scratch</span> to <span>final</span> and <span>grow</span> your business</h1>
                 </div>
                 <div className="content-secondary">
                     <p>I’ve had the privilege of working on projects that help real people and real businesses.</p>
@@ -995,7 +995,7 @@ function Home() {
                 <ProjectSlider setBackground={setBackground} />
             </div>
             <div class="button-wrap">
-            <button class="butt" onClick={nav}>All Project details</button>
+            {/* <button class="butt" onClick={nav}>All Project details</button> */}
             </div>
             </div>
             {/* <div className="quote hidden">

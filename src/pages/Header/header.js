@@ -90,23 +90,7 @@ function Header() {
               </object>
             </div>
 
-          <div className="menu-toggle">
-            <input type="checkbox" className="nav__checkbox" id="nav-toggle" checked={checked} onChange={e => setChecked(e.target.checked)} />
-            <label htmlFor="nav-toggle" className="nav__button">
-                <span className="nav__icon">&nbsp;</span>
-            </label>
-            <div className="navigation" ref={elSocials}>
-                
-                <div className="small_menu">
-                    <ul>
-                        <li className="menu-one"><NavLink className="nav-link" onClick={check} to="/">Home</NavLink></li>
-                        <li className="menu-two"><NavLink className="nav-link" onClick={check} to="/work">Work</NavLink></li>
-                        {/* <li className="menu-four"><a className="nav-link" href="#" target="_blank">Resume</a></li> */}
-                        <li className="menu-five"><a className="nav-link" href="mailto:benjaminlee97511@gmail.com" target="_blank">Contact</a></li>
-                    </ul>
-                </div>    
-            </div>
-          </div>
+          
 
 
         </div>

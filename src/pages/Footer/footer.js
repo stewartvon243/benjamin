@@ -71,6 +71,16 @@ function Footer() {
                                         @benjaminlee97511
                                 </div>
                             </div>
+
+                            <div className="social-item">
+                                <div className="social-icon"><PngIcon src={require('../../assets/images/github.png')} alt="Github" className="icon" /></div>
+                                <div className="social-details">
+                                    <h4>Telegram</h4>
+                                    <a href="https://github.com/smartcoindev389" target="_blank" rel="noopener noreferrer">
+                                        @smartcoindev389
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
